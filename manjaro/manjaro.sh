@@ -16,3 +16,6 @@ pacman -S $(<pacmansofts) --noconfirm
 # Docker
 systemctl enable docker
 usermod -aG docker $1
+
+# Dockstation
+pamac build dockstation -y
