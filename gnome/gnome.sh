@@ -5,6 +5,20 @@ make install
 cd ..
 rm -rf blur-me
 
+# Fluent Theme
+
+
+# Icon theme
+
+curl -L https://github.com/vinceliuice/Fluent-gtk-theme/archive/refs/heads/master.zip --output fluent.zip
+unzip fluent.zip
+
+cd Fluent-gtk-theme-master
+sh ./install.sh -d ~/.themes/Fluent -i manjaro
+# Cursor Theme
+
+# Config
+
 gnome-extensions enable user-theme@gnome-shell-extensions.gcampax.github.com
 gnome-extensions enable workspace-indicator@gnome-shell-extensions.gcampax.github.com
 
