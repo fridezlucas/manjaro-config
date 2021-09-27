@@ -27,3 +27,6 @@ terminator-git
 postman-bin
 dotnet-sdk
 sassc
+gtk-engine-murrine
+gnome-themes-extra
+glibc
