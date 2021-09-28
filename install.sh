@@ -5,4 +5,4 @@ sudo sh install-snaps.sh
 cd ..
 # sh gnome/gnome.sh
 
-echo "emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'" >> /etc/zsh/zprofile
+echo "emulate sh -c 'source /etc/profile.d/apps-bin-path.sh'" >> /etc/zsh/zprofileg
